@@ -1,0 +1,39 @@
+
+
+.navbar .navbar-nav .nav-link{
+    width: 140px;
+    margin-left: 40px;
+    font-family: 'Rubik', sans-serif;
+}
+.navbar .navbar-nav .nav-item a{
+    color: rgb(233, 227, 227);
+    font-size: 22px;
+}
+.navbar .navbar-nav .nav-item a:hover{
+    color: yellow;
+    transition: color 0.5s ease-in;
+}
+.navbar-text .login button{
+    background: white;
+    font-weight: bolder;
+    font-size: 20px;
+    border: 3px solid black;
+    border-radius: 8px;
+    width: 90px;
+}
+.navbar-text .login button:hover{
+    background-color: rgb(71, 68, 68);
+    color: aliceblue;
+}
+@media screen and (max-width:1000px){
+    .navbar-text .login button{
+        background: white;
+        font-weight: bolder;
+        font-size: 20px;
+        border: 2px solid black;
+        border-radius: 8px;
+        margin-left: 30px;
+        width: 90px;
+    }
+    
+}
